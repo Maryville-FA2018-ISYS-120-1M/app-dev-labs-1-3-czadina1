@@ -1,3 +1,4 @@
+// SU edits
 let width = 10
 let height = 20
 let area = width * height
@@ -11,21 +12,21 @@ print(roomArea)
 /*:
  Create a `perimeter` constant whose value equals `width` plus `width` plus `height` plus `height`, then print out the result.
  */
-let perimeter = (width*2)+(height*2)
+let perimeter = (width*2)+(height*2) // very good
 print(perimeter)
 
 /*:
  Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, `integerDivisionResult` that is the result of 10 divided by 3, and print the value.
  */
-print("3")
+print("3") // almost, print(3)
 let integerDivisonResult = 10/3
 print(integerDivisonResult)
 
 /*:
  Now create two constants, `double10` and `double3`, set to 10 and 3, and declare their types as `Double` values. Declare a final constant `divisionResult` equal to the result of `double10` divided by `double3`. Print the value of `divisionResult`. How does this differ from the value when using integer division?
  */
-let double10 = 10.0
-let double3 = 3.0
+let double10 = 10.0 // proper syntax is let double10: Double = 10
+let double3 = 3.0 // proper syntax is let double3: Double = 3
 let divisionResult = double10/double3
 print(divisionResult)
 /*:
